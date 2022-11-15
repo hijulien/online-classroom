@@ -1,0 +1,266 @@
+nav {
+    background-color: #F2F2F2;
+
+    .container {
+        position: relative;
+        width: 1440px;
+        height: 80px;
+
+        .logo {
+            float: left;
+            padding-top: 5px;
+            margin-right: 80px;
+        }
+
+        .nav {
+            height: 80px;
+
+            ul {
+                height: 100%;
+                line-height: 80px;
+                font-size: 22px;
+                border: none;
+                background-color: #F2F2F2;
+            }
+        }
+
+        .login {
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 100%;
+
+            .ant-btn {
+                margin-top: 24px;
+                border: none;
+                background-color: transparent;
+                box-shadow: none;
+                text-shadow: none;
+
+                span {
+                    color: black;
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .logined {
+            position: absolute;
+            display: flex;
+            justify-content: space-between;
+            top: 0;
+            right: 0;
+            height: 100%;
+
+            p {
+                margin-bottom: 0;
+            }
+
+            img {
+                height: 40px;
+            }
+        }
+    }
+}
+
+.search-box {
+    margin: 50px auto;
+
+    .inner {
+        width: 1px;
+        height: 32px;
+    }
+
+    .search,
+    .class-type {
+        float: left;
+    }
+
+    .fillet {
+        height: 32px;
+        border-radius: 16px;
+        overflow: hidden;
+        border: 1px solid #d9d9d9 !important;
+    }
+
+    .ant-btn {
+        border: none;
+        border-left: 1px solid #d9d9d9;
+    }
+
+    .ant-btn-round {
+        margin-right: 20px;
+    }
+
+    .search {
+        width: 200px;
+        margin-right: 20px;
+    }
+
+    .search-radio {
+        float: right;
+    }
+}
+
+.classList {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .hot-key {
+        p {
+            font-size: 20px;
+            display: inline-block;
+            padding: 0 20px;
+            cursor: pointer;
+        }
+    }
+
+    .class-item {
+        width: 390px;
+        height: 400px;
+        border: 1px solid #d9d9d9;
+        margin-bottom: 15px;
+        cursor: pointer;
+
+        h2 {
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+
+        .img-box {
+            width: 100%;
+            height: 260px;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .desc-box {
+            padding: 10px 20px;
+
+            h3 {
+                font-size: 20px;
+                font-weight: 700;
+                margin-bottom: 0;
+            }
+
+            p {
+                display: inline-block;
+                padding-bottom: 0;
+                margin-bottom: 0;
+                height: 31.42px;
+                line-height: 31.42px;
+            }
+
+            ul {
+                float: right;
+            }
+
+            .info {
+                margin-top: 10px;
+                padding-top: 15px;
+                border-top: 1px solid black;
+
+                .views {
+                    margin-right: 20px;
+                }
+
+                .price {
+                    float: right;
+                }
+            }
+        }
+    }
+
+    .page {
+
+        .ant-pagination-prev button,
+        .ant-pagination-next button {
+            color: #fff !important;
+        }
+
+        .page-number {
+            margin-top: 12px;
+        }
+    }
+
+    .ant-pagination-item {
+        border-radius: 50% !important;
+    }
+
+    margin-bottom: 60px;
+}
+
+.support {
+    height: 600px;
+
+    .title {
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            position: relative;
+        }
+
+        .hr {
+            width: 40%;
+            height: 1px;
+            position: absolute;
+            border-top: 1px solid #d9d9d9;
+            top: 50%;
+        }
+    }
+
+    .items {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        .item {
+            flex-basis: 24%;
+            margin-bottom: 15px;
+            height: 170px;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+
+// antd样式
+.ant-modal-root {
+    .ant-modal-header {
+        padding-bottom: .2em;
+
+        span {
+            cursor: pointer;
+            color: #40a0ff;
+        }
+    }
+
+    h3 {
+        font-weight: bold;
+    }
+}
+
+
+button[ant-click-animating-without-extra-node]:after {
+    border: 0 none;
+    opacity: 0;
+    animation: none 0 ease 0 1 normal;
+}
+
+.ant-input-search .ant-input:hover+.ant-input-group-addon .ant-input-search-button:not(.ant-btn-primary),
+.ant-input-search .ant-input:focus+.ant-input-group-addon .ant-input-search-button:not(.ant-btn-primary) {
+    border-left: 1px solid #d9d9d9 !important;
+}
+
+.ant-input-affix-wrapper .ant-input:focus {
+    border: none;
+    border-bottom: 1px solid white !important;
+    box-shadow: none;
+}

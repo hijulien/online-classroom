@@ -1,0 +1,29 @@
+.ant-carousel{
+    .slick-dots li {
+        width: 10px !important;
+        height: 10px !important;
+        margin: 0 10px !important;
+    }
+    
+    .slick-dots li button {
+        height: 100% !important;
+        border-radius: 50% !important;
+    }
+    
+    .anticon {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 30px;
+        cursor: pointer;
+    }
+    
+    .anticon-left {
+        left: 20px;
+        z-index: 9999;
+    }
+    
+    .anticon-right {
+        right: 20px;
+    }
+}

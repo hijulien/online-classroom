@@ -1,0 +1,83 @@
+nav {
+    background-color: #F2F2F2;
+
+    .container {
+        position: relative;
+        width: 1440px;
+        height: 80px;
+
+        .logo {
+            float: left;
+            padding-top: 5px;
+            margin-right: 80px;
+            cursor: pointer;
+        }
+
+        .nav {
+            height: 80px;
+
+            h1{
+                height: 100%;
+                line-height: 80px;
+                font-size: 30px;
+            }
+        }
+
+        .login {
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 100%;
+
+            .ant-btn {
+                margin-top: 24px;
+                border: none;
+                background-color: transparent;
+                box-shadow: none;
+                text-shadow: none;
+
+                span {
+                    color: black;
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .logined {
+            position: absolute;
+            display: flex;
+            justify-content: space-between;
+            top: 0;
+            right: 0;
+            height: 100%;
+
+            p {
+                margin-bottom: 0;
+            }
+
+            img {
+                height: 40px;
+            }
+        }
+    }
+}
+
+.recent-stu{
+    font-size: 12px;
+    border-bottom: 1px solid black;
+}
+
+.record-item{
+    font-size: 12px;
+}
+
+.record-more{
+    font-size: 12px;
+    text-align: center;
+    border-top: 1px solid black;
+}
+
+.header-img{
+    border-radius: 50%;
+    width: 40px;
+}

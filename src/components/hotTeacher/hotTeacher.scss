@@ -1,0 +1,87 @@
+.teachers {
+    height: 400px;
+    display: flex;
+    align-items: center;
+
+    .ant-carousel {
+        width: 100%;
+        height: 100%;
+
+        .teacher-box {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+
+            .teacher {
+                width: 590px;
+                height: 280px;
+                position: relative;
+                // display: inline-block;
+
+                img {
+                    width: 100px;
+                    height: 100px;
+                    position: absolute;
+                    border-radius: 50%;
+                    margin-left: 50%;
+                    transform: translateX(-50%);
+                    z-index: 99;
+                    background-color: #fff;
+                }
+
+                .teacher-info {
+                    height: 210px;
+                    padding: 50px 20px 0 20px;
+                    border: 1px solid black;
+                    transform: translateY(50px);
+
+                    .name {
+                        font-size: 22px;
+                        font-weight: 700;
+
+                        span {
+                            font-weight: normal;
+                            font-size: 16px;
+                            margin-left: 40px;
+                        }
+                    }
+
+                    .cont {
+                        font-size: 18px;
+                        overflow: hidden;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 3;
+                        -webkit-box-orient: vertical;
+                    }
+                }
+            }
+            .tl{
+                display: inline-block;
+            }
+            .tr{
+                float: right;
+            }
+        }
+    }
+    .ant-carousel{
+      
+        
+        .anticon {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-30%);
+            font-size: 40px;
+            cursor: pointer;
+        }
+        
+        .anticon-left {
+            left: -40px;
+            z-index: 9999;
+        }
+        
+        .anticon-right {
+            right: -40px;
+        }
+    }
+    
+}

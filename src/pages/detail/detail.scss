@@ -1,0 +1,235 @@
+.detail {
+    .top {
+        margin: 30px auto;
+
+        h1 {
+            font-size: 38px;
+            font-weight: 700;
+        }
+
+        .ant-space {
+            height: 80px;
+
+            p {
+                font-size: 14px;
+                margin-bottom: 0;
+            }
+
+            span {
+                font-size: 12px;
+            }
+
+            .ant-rate-star {
+                margin-right: 0;
+            }
+
+            .head-img {
+                display: flex;
+
+                img {
+                    height: 80px;
+                    margin-right: 20px;
+                }
+            }
+        }
+    }
+
+    .main {
+        display: flex;
+        justify-content: space-between;
+
+        .body {
+            width: 900px;
+
+            .cover-img {
+                width: 100%;
+
+                img {
+                    width: 100%;
+                    height: 400px;
+                }
+            }
+
+            h3 {
+                font-weight: 700;
+                border-bottom: 1px solid black;
+            }
+
+            .chapter {
+                section {
+                    h3 {
+                        background-color: #d9d9d9;
+                        border: none;
+                        padding: 10px 0;
+
+                        span {
+                            font-size: 16px;
+                            font-weight: normal;
+                        }
+                    }
+                }
+
+                .chapter-child {
+                    height: 50px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    border-bottom: 1px solid #d9d9d9;
+
+                    .item0 {
+                        flex-basis: 30%;
+                    }
+
+                    .item1 {
+                        flex-basis: 50%;
+                        display: flex;
+                        flex-direction: row-reverse;
+                        justify-content: space-between;
+
+                        .time {
+                            margin-right: 10px;
+                        }
+                    }
+
+                    .item2 {
+                        flex-basis: 20%;
+
+                        a,
+                        button{
+                            float: right;
+                        }
+                    }
+                }
+            }
+        }
+
+        .side {
+            width: 280px;
+            .title {
+                font-size: 16px;
+                font-weight: 700;
+                border-bottom: 2px solid black;
+            }
+
+            .evaluate {
+                border: 1px solid black;
+                padding: 10px 20px;
+
+
+                .number {
+                    display: flex;
+                    justify-content: space-between;
+
+                    .star {
+                        p {
+                            margin-bottom: 0;
+                            margin-top: 12px;
+                        }
+
+                        ul {
+                            font-size: 0;
+                            float: left;
+                        }
+
+                        span {
+                            font-size: 12px;
+                        }
+
+                        .ant-rate-star {
+                            margin-right: 0;
+                        }
+                    }
+
+                    .mark {
+                        h1 {
+                            margin-top: 0.5em;
+                        }
+                    }
+                }
+
+                .percent {
+                    .item {
+                        .cont {
+                            display: flex;
+                            justify-content: space-between;
+
+                            p {
+                                margin-bottom: 0;
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .recommend {
+                width: 100%;
+                font-size: 12px;
+                .title{
+                    display: inline-block;
+                    margin: 20px 0;
+                }
+
+                .item {
+                    width: 100%;
+                    border: 1px solid #d9d9d9;
+                    margin-bottom: 15px;
+
+                    .img-box {
+                        width: 100%;
+                        height: 160px;
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+
+                    .desc {
+                        padding: 10px 20px;
+                        .author{
+                            h3 {
+                                font-size: 16px;
+                                font-weight: 700;
+                                margin-bottom: 0;
+                            }
+                        }
+
+                        p {
+                            display: inline-block;
+                            padding-bottom: 0;
+                            margin-bottom: 0;
+                            height: 31.42px;
+                            line-height: 31.42px;
+                        }
+
+                        ul {
+                            float: right;
+                            font-size: 0;
+                            li{
+                                margin-right: 4px;
+                                span{
+                                    font-size: 12px;
+                                }
+                            }
+                        }
+
+                        .info {
+                            margin-top: 0px;
+                            padding-top: 5px;
+                            border-top: 1px solid #d9d9d9;
+
+                            .views {
+                                margin-right: 20px;
+                            }
+
+                            .price {
+                                float: right;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

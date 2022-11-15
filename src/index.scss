@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*{
+  box-sizing: border-box;
+  font-family: -apple-system,system-ui,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei",Arial!important;
+}
+body,div,dl,dt,dd,ul,ol,li,tr,td,th,
+h1,h2,h3,h4,h5,h6,hr,br,img,table,
+input,form,a,p,textarea{
+    padding:0;
+    margin:0;
+    font-family:Arial,'Microsoft YaHei','宋体';
+}
+/*去掉列表默认排列*/
+ul,ol,li{
+    list-style:none;
+}
+/*去掉底部横线*/
+/*把a元素更改设置成块级元素，这个根据实际情况决定要不要*/
+a{
+    text-decoration:none;
+}
+/*img标签要清除border。*/
+/*display设为block设置为块级元素，默认为display:inline;
+存在下边线多出4px状况,所以一般设为block*/
+img{
+    border:0;
+}
+/*清除浮动破坏带来的塌陷问题*/
+/*清除浮动的兼容IE*/
+.clearfloat {
+	zoom: 1;
+}
+.clearfloat:after {
+	display:block;
+	clear:both;
+	content:"";
+	visibility:hidden;
+	height:0;
+}
+
+.container{
+ width: 1200px;
+  margin: 0 auto;
+}
+
